@@ -6,7 +6,7 @@
  * Thanks to http://www.javascriptkit.com/
  */
 (function($) {
-	$.fn.ccountdown = function(_yr, _m, _d, _t) {
+	$.fn.ccountdown = function(_y, _m, _d, _t) {
 		var $this = this;
 		var _montharray = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 		var _today = new Date();
